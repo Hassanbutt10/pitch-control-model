@@ -22,7 +22,11 @@ Possession stats only count who has the ball. They say nothing about who control
 StatsBomb's open 360 data does not assign player IDs across frames, only teammate/opponent/actor flags with a location. This makes it impossible to track an individual player between frames, so velocity and direction cannot be estimated. This model uses static position only, not the velocity-adjusted version used in professional tracking-data systems.
 
 ## Visual
-`pitch_control_snapshot.png`: control boundary at a single frame. `avg_pitch_control.png`: average control percentage across the match.
+![Pitch control snapshot](pitch_control_snapshot.png)
+*Control boundary at a single frame (minute 92)*
+
+![Average pitch control](avg_pitch_control.png)
+*Average control percentage across the match*
 
 ## Tools
 Python, pandas, numpy, matplotlib
